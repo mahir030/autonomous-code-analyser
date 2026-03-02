@@ -4,7 +4,7 @@ A powerful web-based platform that enables users to evaluate software projects e
 
 ✨ Features
 
-✅ Project Evaluation — Analyze different software projects easily
+✅ Code Evaluation — Analyze different codes in a projects easily
 📊 Performance Scoring — Assign structured scores and metrics
 💬 Feedback System — Submit and manage project feedback
 📈 Performance Tracking — Monitor improvements over time
@@ -44,8 +44,6 @@ Analytics Module — Tracks progress and performance
 
 🌐 Frontend: HTML / CSS / JavaScript / React
 
-⚙️ Backend: Python / Node.js
-
-🗄️ Database: PostgreSQL / MongoDB
+⚙️ Backend: Python
 
 🔍 Analysis Engine: Custom evaluation modules
