@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Software Quality Evaluator Intelligence</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') 
+                        no-repeat center center/cover;
+        }
+
+        /* Dark overlay for eye comfort */
+        body::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.65); /* deep blue overlay */
+            backdrop-filter: blur(8px);
+        }
+
+        .card {
+            position: relative;
+            width: 650px;
+            padding: 50px;
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #111827;
+        }
+
+        .subtitle {
+            color: #4b5563;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e5e7eb;
+            margin: 25px 0;
+        }
+
+        input[type="file"] {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border-radius: 6px;
+            border: 1px solid #d1d5db;
+        }
+
+        button {
+            margin-top: 25px;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background: linear-gradient(90deg, #111827, #1f2937);
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1 style="text-align: center;">Software Evaluator</h1>
+        <p class="subtitle" style="text-align: center;">Automated Software Quality Intelligence Platform</p>
+
+        <hr>
+
+        <h2>Upload Project for Evaluation</h2>
+
+        <form action="/upload" enctype="multipart/form-data" method="post">
+            <label><strong>Select Source Code File</strong></label>
+            <input type="file" name="file" required>
+            <button type="submit">Run Enterprise Evaluation</button>
+        </form>
+
+        <hr>
+
+        <h3>What You Receive</h3>
+        <ul>
+            <li>Comprehensive Software Score</li>
+            <li>Metric-Level Intelligence</li>
+            <li>File-by-File Quality Breakdown</li>
+            <li>Executive PDF Report</li>
+        </ul>
+
+        <div class="footer">
+            Internal Quality Intelligence System
+        </div>
+
+    </div>
+
+</body>
+</html>
